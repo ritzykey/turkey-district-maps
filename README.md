@@ -76,6 +76,24 @@ This is generally used for [Antd](https://ant.design/components/tooltip/) style 
 | viewBox     | Position and dimension information of the map (svg) layout | _viewBoxType_                                                                        | { **top**: _30_, **left**: _75_, **width**: _74_, **height**: _45_ } |
 | hidden      | Defines the visibility of the component                    | _boolean_                                                                            | _false_                                                              |
 
+## Development
+
+Local development is broken into two parts (ideally using two tabs).
+
+First, run rollup to watch your `src/` module and automatically recompile it into `dist/` whenever you make changes.
+
+```bash
+npm start # runs rollup with watch flag
+```
+
+The second part will be running the `example/` create-react-app that's linked to the local version of your module.
+
+```bash
+# (in another tab)
+cd example
+npm start # runs create-react-app dev server
+```
+
 ## License
 
 MIT © [ritzykey](https://github.com/ritzykey)
