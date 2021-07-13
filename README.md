@@ -1,29 +1,80 @@
-# turkey-district-maps-3
+# Turkey District Maps React Component
 
-> A district maps of Turkey cities for React JS applications.
+> A SVG district maps of Turkey cities for React JS applications.
 
 [![NPM](https://img.shields.io/npm/v/turkey-district-maps-3.svg)](https://www.npmjs.com/package/turkey-district-maps-3) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save turkey-district-maps-3
+npm install turkey-district-maps-3
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import { Istanbul, Ankara } from 'turkey-district-maps-3'
 
-import MyComponent from 'turkey-district-maps-3'
-import 'turkey-district-maps-3/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+const App = () => (
+  <>
+    <Istanbul />
+    <Ankara />
+  </>
+)
 ```
+
+### Handling events
+
+On click example:
+
+```jsx
+<Istanbul onClick={({ name }) => console.log(name + ' is just clicked!')} />
+```
+
+On mouse over example:
+
+```jsx
+<Istanbul
+  onHover={({ name }) => console.log('Cursor is over on ' + name + '!')}
+/>
+```
+
+### District component wrapping
+
+```jsx
+<Istanbul
+  distWrapper={(distComponent, distData) => (
+    <Tooltip title={distData.name} key={distData.name}>
+      {distComponent}
+    </Tooltip>
+  )}
+/>
+```
+
+This is generally used for [Antd](https://ant.design/components/tooltip/) style _Tooltip_.
+
+## API
+
+### Types
+
+| Type              | Description                                                                          |
+| :---------------- | :----------------------------------------------------------------------------------- |
+| _distDataType_    | { **name**: _string_, **distPath**: _string_ }                                       |
+| _viewBoxType_     | { **top**: _number_, **left**: _number_, **width**: _number_, **height**: _number_ } |
+| _customStyleType_ | { **idleColor**: _string_, **hoverColor**: _string_ }                                |
+| _strokeStyleType_ | { **strokeWidth**: _string_, **strokeColor**: _string_ }                             |
+
+### props
+
+| Property    | Description                                                | Type                                                                                 | Default                                                              |
+| :---------- | :--------------------------------------------------------- | :----------------------------------------------------------------------------------- | :------------------------------------------------------------------- |
+| distWrapper | District DOMs are wrapped by provided component.           | ( **cityComponent**: _JSX.Element_, **distData** : _distDataType_ ) => _JSX.Element_ | _Unwrapped district_                                                 |
+| onClick     | Event when a district clicked on the map.                  | ( **district** : _districtType_ ) => _void_                                          | -                                                                    |
+| onHover     | Event when a district hovered on the map.                  | ( **district** : _districtType_ ) => _void_                                          | -                                                                    |
+| customStyle | Stylizing the component.                                   | _customStyleType_                                                                    | { **idleColor**: _#444_, **hoverColor**: _#dc3522_ }                 |
+| strokeStyle | Stylizing the component.                                   | _strokeStyleType_                                                                    | { **strokeWidth**: _0.08_, **strokeColor**: _white_ }                |
+| viewBox     | Position and dimension information of the map (svg) layout | _viewBoxType_                                                                        | { **top**: _30_, **left**: _75_, **width**: _74_, **height**: _45_ } |
+| hidden      | Defines the visibility of the component                    | _boolean_                                                                            | _false_                                                              |
 
 ## License
 
