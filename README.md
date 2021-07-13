@@ -2,7 +2,7 @@
 
 > A SVG district maps of Turkey cities for React JS applications.
 
-[![NPM](https://img.shields.io/npm/v/turkey-district-maps-3.svg)](https://www.npmjs.com/package/turkey-district-maps-3) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/turkey-district-maps-3.svg)](https://www.npmjs.com/package/turkey-district-maps-3) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Made with React](https://img.shields.io/badge/React-17-blue?logo=react&logoColor=white)](https://www.npmjs.com/package/react)
 
 ## Install
 
@@ -10,7 +10,7 @@
 npm install turkey-district-maps-3
 ```
 
-## Usage
+## Usage [![Open in CodeSandbox](https://img.shields.io/badge/Open_in-CodeSandbox-black?logo=codesandbox&logoColor=white)](https://lsh7w.csb.app/)
 
 ```jsx
 import { Istanbul, Ankara } from 'turkey-district-maps-3'
