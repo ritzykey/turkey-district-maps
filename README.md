@@ -4,13 +4,20 @@
 
 [![NPM](https://img.shields.io/npm/v/turkey-district-maps-3.svg)](https://www.npmjs.com/package/turkey-district-maps-3) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Made with React](https://img.shields.io/badge/React-17-blue?logo=react&logoColor=white)](https://www.npmjs.com/package/react)
 
+## 🌏  Open in the Cloud 
+
+Click any of the buttons below to start a new development environment to demo or contribute to the codebase without having to install anything on your machine:
+
+[![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/ritzykey/turkey-district-map)
+[![Edit example-turkey-district-maps](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/example-turkey-district-maps-9qcxyk)
+
 ## Install
 
 ```bash
 npm install turkey-district-maps-3
 ```
 
-## Usage [![Open in CodeSandbox](https://img.shields.io/badge/Open_in-CodeSandbox-black?logo=codesandbox&logoColor=white)](https://lsh7w.csb.app/)
+## Usage
 
 ```jsx
 import { Istanbul, Ankara } from 'turkey-district-maps-3'
