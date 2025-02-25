@@ -9,7 +9,7 @@
 Click any of the buttons below to start a new development environment to demo or contribute to the codebase without having to install anything on your machine:
 
 [![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/ritzykey/turkey-district-map)
-[![Edit example-turkey-district-maps](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/example-turkey-district-maps-9qcxyk)
+[![Edit example-turkey-district-maps](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/example-turkey-district-maps-forked-7c65gc)
 
 ## Install
 
