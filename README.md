@@ -101,6 +101,11 @@ cd example
 npm start # runs create-react-app dev server
 ```
 
+## Example
+
+![image](https://github.com/user-attachments/assets/84ba9ba7-8abb-4bb3-b4d7-6191a0021410)
+
+
 ## License
 
 MIT © [ritzykey](https://github.com/ritzykey)
