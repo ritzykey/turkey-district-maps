@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "es2023",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "module": "esnext",
+    "types": ["vite/client"],
+    "skipLibCheck": true,
+
+    /* Kütüphane Ayarları (Burası Değişti) */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true, // Publish ederken .ts uzantılı importlar hata verir, kapattık
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    
+    "noEmit": false,             // Tipleri üretmesi için false olmalı
+    "declaration": true,        // .d.ts dosyalarını oluşturur
+    "emitDeclarationOnly": true, // JS'i Vite üretecek, TSC sadece tipleri üretsin
+    "rootDir": "lib",
+    "outDir": "./dist",         // Tipler dist klasörüne gitsin
+    
+    "jsx": "react-jsx",
+
+    /* Kalite Kontrolleri */
+    "strict": true,              // Kütüphanelerde tam güvenlik için önerilir
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["lib"] // Sadece kütüphane kodlarını kapsar
+}

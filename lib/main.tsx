@@ -1,9 +1,10 @@
 import React from 'react'
-import TurkeyCityMaps from './components/Istanbul.jsx'
+import TurkeyCityMaps from './components/Istanbul.tsx'
+import type { TurkeyCityMapsProps } from './components/Istanbul.tsx'
 
-export const Istanbul = (props) => <TurkeyCityMaps {...props} />
+export const Istanbul = (props: TurkeyCityMapsProps): React.ReactElement => <TurkeyCityMaps {...props} />
 
-export const Ankara = (props) => (
+export const Ankara = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     city='ankara'
     viewBox={{ top: 74, left: 175, width: 120, height: 100 }}
@@ -11,7 +12,7 @@ export const Ankara = (props) => (
   />
 )
 
-export const Izmir = (props) => (
+export const Izmir = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 135, left: 10, width: 90, height: 80 }}
     city='izmir'
@@ -19,7 +20,7 @@ export const Izmir = (props) => (
   />
 )
 
-export const Bursa = (props) => (
+export const Bursa = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 75, left: 68, width: 95, height: 60 }}
     city='bursa'
@@ -27,7 +28,7 @@ export const Bursa = (props) => (
   />
 )
 
-export const Adana = (props) => (
+export const Adana = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 183, left: 285, width: 145, height: 90 }}
     city='adana'
@@ -35,7 +36,7 @@ export const Adana = (props) => (
   />
 )
 
-export const Adıyaman = (props) => (
+export const Adıyaman = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 193, left: 408, width: 95, height: 40 }}
     city='adıyaman'
@@ -43,7 +44,7 @@ export const Adıyaman = (props) => (
   />
 )
 
-export const Afyonkarahisar = (props) => (
+export const Afyonkarahisar = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 140, left: 115, width: 125, height: 80 }}
     city='afyonkarahisar'
@@ -51,7 +52,7 @@ export const Afyonkarahisar = (props) => (
   />
 )
 
-export const Ağrı = (props) => (
+export const Ağrı = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 105, left: 575, width: 125, height: 60 }}
     city='ağrı'
@@ -59,7 +60,7 @@ export const Ağrı = (props) => (
   />
 )
 
-export const Aksaray = (props) => (
+export const Aksaray = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: -20, left: -245, width: 900, height: 380 }}
     city='aksaray'
@@ -67,7 +68,7 @@ export const Aksaray = (props) => (
   />
 )
 
-export const Amasya = (props) => (
+export const Amasya = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 56, left: 315, width: 95, height: 45 }}
     city='amasya'
@@ -75,7 +76,7 @@ export const Amasya = (props) => (
   />
 )
 
-export const Antalya = (props) => (
+export const Antalya = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 230, left: 115, width: 145, height: 65 }}
     city='antalya'
@@ -83,7 +84,7 @@ export const Antalya = (props) => (
   />
 )
 
-export const Ardahan = (props) => (
+export const Ardahan = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 30, left: 560, width: 115, height: 50 }}
     city='ardahan'
@@ -91,7 +92,7 @@ export const Ardahan = (props) => (
   />
 )
 
-export const Artvin = (props) => (
+export const Artvin = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 0, left: -240, width: 915, height: 370 }}
     city='artvin'
@@ -99,7 +100,7 @@ export const Artvin = (props) => (
   />
 )
 
-export const Aydın = (props) => (
+export const Aydın = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 198, left: 25, width: 105, height: 37 }}
     city='aydın'
@@ -107,7 +108,7 @@ export const Aydın = (props) => (
   />
 )
 
-export const Balıkesir = (props) => (
+export const Balıkesir = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 10, left: -170, width: 955, height: 530 }}
     city='balıkesir'
@@ -115,7 +116,7 @@ export const Balıkesir = (props) => (
   />
 )
 
-export const Bartın = (props) => (
+export const Bartın = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 18, left: 215, width: 60, height: 30 }}
     city='bartın'
@@ -123,7 +124,7 @@ export const Bartın = (props) => (
   />
 )
 
-export const Batman = (props) => (
+export const Batman = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 176, left: 520, width: 100, height: 55 }}
     city='batman'
@@ -131,7 +132,7 @@ export const Batman = (props) => (
   />
 )
 
-export const Bayburt = (props) => (
+export const Bayburt = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 80, left: 475, width: 100, height: 35 }}
     city='bayburt'
@@ -139,7 +140,7 @@ export const Bayburt = (props) => (
   />
 )
 
-export const Bilecik = (props) => (
+export const Bilecik = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 84, left: 110, width: 100, height: 45 }}
     city='bilecik'
@@ -147,7 +148,7 @@ export const Bilecik = (props) => (
   />
 )
 
-export const Bingöl = (props) => (
+export const Bingöl = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 128, left: 490, width: 100, height: 55 }}
     city='bingöl'
@@ -155,7 +156,7 @@ export const Bingöl = (props) => (
   />
 )
 
-export const Bitlis = (props) => (
+export const Bitlis = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 155, left: 560, width: 100, height: 53 }}
     city='bitlis'
@@ -163,7 +164,7 @@ export const Bitlis = (props) => (
   />
 )
 
-export const Bolu = (props) => (
+export const Bolu = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 57, left: 160, width: 100, height: 50 }}
     city='bolu'
@@ -171,7 +172,7 @@ export const Bolu = (props) => (
   />
 )
 
-export const Burdur = (props) => (
+export const Burdur = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 210, left: 105, width: 100, height: 50 }}
     city='burdur'
@@ -179,7 +180,7 @@ export const Burdur = (props) => (
   />
 )
 
-export const Çanakkale = (props) => (
+export const Çanakkale = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 73, left: -25, width: 120, height: 65 }}
     city='çanakkale'
@@ -187,7 +188,7 @@ export const Çanakkale = (props) => (
   />
 )
 
-export const Çankırı = (props) => (
+export const Çankırı = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 56, left: 215, width: 120, height: 65 }}
     city='çankırı'
@@ -195,7 +196,7 @@ export const Çankırı = (props) => (
   />
 )
 
-export const Çorum = (props) => (
+export const Çorum = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 43, left: 255, width: 130, height: 73 }}
     city='çorum'
@@ -203,7 +204,7 @@ export const Çorum = (props) => (
   />
 )
 
-export const Denizli = (props) => (
+export const Denizli = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 178, left: 55, width: 130, height: 83 }}
     city='denizli'
@@ -211,7 +212,7 @@ export const Denizli = (props) => (
   />
 )
 
-export const Diyarbakır = (props) => (
+export const Diyarbakır = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 168, left: 470, width: 130, height: 63 }}
     city='diyarbakır'
@@ -219,7 +220,7 @@ export const Diyarbakır = (props) => (
   />
 )
 
-export const Düzce = (props) => (
+export const Düzce = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 54, left: 160, width: 70, height: 27 }}
     city='düzce'
@@ -227,7 +228,7 @@ export const Düzce = (props) => (
   />
 )
 
-export const Edirne = (props) => (
+export const Edirne = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 9, left: -20, width: 100, height: 75 }}
     city='edirne'
@@ -235,7 +236,7 @@ export const Edirne = (props) => (
   />
 )
 
-export const Elazığ = (props) => (
+export const Elazığ = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 147, left: 450, width: 100, height: 75 }}
     city='elazığ'
@@ -243,7 +244,7 @@ export const Elazığ = (props) => (
   />
 )
 
-export const Erzincan = (props) => (
+export const Erzincan = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 102, left: 450, width: 100, height: 57 }}
     city='erzincan'
@@ -251,7 +252,7 @@ export const Erzincan = (props) => (
   />
 )
 
-export const Erzurum = (props) => (
+export const Erzurum = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 60, left: 500, width: 140, height: 93 }}
     city='erzurum'
@@ -259,7 +260,7 @@ export const Erzurum = (props) => (
   />
 )
 
-export const Eskişehir = (props) => (
+export const Eskişehir = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 100, left: 120, width: 140, height: 55 }}
     city='eskişehir'
@@ -267,7 +268,7 @@ export const Eskişehir = (props) => (
   />
 )
 
-export const Gaziantep = (props) => (
+export const Gaziantep = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 223, left: 370, width: 90, height: 45 }}
     city='gaziantep'
@@ -275,7 +276,7 @@ export const Gaziantep = (props) => (
   />
 )
 
-export const Giresun = (props) => (
+export const Giresun = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 56, left: 410, width: 100, height: 55 }}
     city='giresun'
@@ -283,7 +284,7 @@ export const Giresun = (props) => (
   />
 )
 
-export const Gümüşhane = (props) => (
+export const Gümüşhane = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 67, left: 440, width: 100, height: 55 }}
     city='gümüşhane'
@@ -291,7 +292,7 @@ export const Gümüşhane = (props) => (
   />
 )
 
-export const Hakkari = (props) => (
+export const Hakkari = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 0, left: -500, width: 2500, height: 1355 }}
     city='hakkari'
@@ -299,7 +300,7 @@ export const Hakkari = (props) => (
   />
 )
 
-export const Hatay = (props) => (
+export const Hatay = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 120, left: -200, width: 850, height: 430 }}
     city='hatay'
@@ -307,7 +308,7 @@ export const Hatay = (props) => (
   />
 )
 
-export const Iğdır = (props) => (
+export const Iğdır = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 100, left: 625, width: 70, height: 30 }}
     city='iğdır'
@@ -315,7 +316,7 @@ export const Iğdır = (props) => (
   />
 )
 
-export const Isparta = (props) => (
+export const Isparta = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 176, left: 117, width: 140, height: 62 }}
     city='isparta'
@@ -323,7 +324,7 @@ export const Isparta = (props) => (
   />
 )
 
-export const Kahramanmaraş = (props) => (
+export const Kahramanmaraş = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 6, left: -280, width: 1040, height: 450 }}
     city='kahramanmaraş'
@@ -331,7 +332,7 @@ export const Kahramanmaraş = (props) => (
   />
 )
 
-export const Karabük = (props) => (
+export const Karabük = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 32, left: 200, width: 100, height: 40 }}
     city='karabük'
@@ -339,7 +340,7 @@ export const Karabük = (props) => (
   />
 )
 
-export const Karaman = (props) => (
+export const Karaman = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 220, left: 200, width: 150, height: 60 }}
     city='karaman'
@@ -347,7 +348,7 @@ export const Karaman = (props) => (
   />
 )
 
-export const Kars = (props) => (
+export const Kars = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 50, left: 550, width: 150, height: 70 }}
     city='kars'
@@ -355,7 +356,7 @@ export const Kars = (props) => (
   />
 )
 
-export const Kastamonu = (props) => (
+export const Kastamonu = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 10, left: 210, width: 150, height: 65 }}
     city='kastamonu'
@@ -363,7 +364,7 @@ export const Kastamonu = (props) => (
   />
 )
 
-export const Kayseri = (props) => (
+export const Kayseri = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 140, left: 290, width: 150, height: 80 }}
     city='kayseri'
@@ -371,7 +372,7 @@ export const Kayseri = (props) => (
   />
 )
 
-export const Kırıkkale = (props) => (
+export const Kırıkkale = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 90, left: 220, width: 130, height: 50 }}
     city='kırıkkale'
@@ -379,7 +380,7 @@ export const Kırıkkale = (props) => (
   />
 )
 
-export const Kırklareli = (props) => (
+export const Kırklareli = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 5, left: 0, width: 110, height: 50 }}
     city='kırklareli'
@@ -387,7 +388,7 @@ export const Kırklareli = (props) => (
   />
 )
 
-export const Kırşehir = (props) => (
+export const Kırşehir = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 118, left: 242, width: 110, height: 50 }}
     city='kırşehir'
@@ -395,7 +396,7 @@ export const Kırşehir = (props) => (
   />
 )
 
-export const Kilis = (props) => (
+export const Kilis = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 248, left: 387, width: 50, height: 20 }}
     city='kilis'
@@ -403,7 +404,7 @@ export const Kilis = (props) => (
   />
 )
 
-export const Kocaeli = (props) => (
+export const Kocaeli = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 50, left: 105, width: 80, height: 40 }}
     city='kocaeli'
@@ -411,7 +412,7 @@ export const Kocaeli = (props) => (
   />
 )
 
-export const Konya = (props) => (
+export const Konya = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 140, left: 135, width: 220, height: 125 }}
     city='konya'
@@ -419,7 +420,7 @@ export const Konya = (props) => (
   />
 )
 
-export const Kütahya = (props) => (
+export const Kütahya = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 115, left: 88, width: 95, height: 60 }}
     city='kütahya'
@@ -427,7 +428,7 @@ export const Kütahya = (props) => (
   />
 )
 
-export const Malatya = (props) => (
+export const Malatya = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 35, left: -150, width: 760, height: 360 }}
     city='malatya'
@@ -435,7 +436,7 @@ export const Malatya = (props) => (
   />
 )
 
-export const Manisa = (props) => (
+export const Manisa = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 5, left: -180, width: 760, height: 310 }}
     city='manisa'
@@ -443,7 +444,7 @@ export const Manisa = (props) => (
   />
 )
 
-export const Mardin = (props) => (
+export const Mardin = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 0, left: -180, width: 760, height: 290 }}
     city='mardin'
@@ -451,7 +452,7 @@ export const Mardin = (props) => (
   />
 )
 
-export const Mersin = (props) => (
+export const Mersin = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 225, left: 210, width: 180, height: 70 }}
     city='mersin'
@@ -459,7 +460,7 @@ export const Mersin = (props) => (
   />
 )
 
-export const Muğla = (props) => (
+export const Muğla = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 0, left: -120, width: 580, height: 270 }}
     city='muğla'
@@ -467,7 +468,7 @@ export const Muğla = (props) => (
   />
 )
 
-export const Muş = (props) => (
+export const Muş = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 130, left: 520, width: 130, height: 55 }}
     city='muş'
@@ -475,7 +476,7 @@ export const Muş = (props) => (
   />
 )
 
-export const Nevşehir = (props) => (
+export const Nevşehir = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 135, left: 260, width: 130, height: 55 }}
     city='nevşehir'
@@ -483,7 +484,7 @@ export const Nevşehir = (props) => (
   />
 )
 
-export const Niğde = (props) => (
+export const Niğde = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 183, left: 260, width: 130, height: 55 }}
     city='niğde'
@@ -491,7 +492,7 @@ export const Niğde = (props) => (
   />
 )
 
-export const Ordu = (props) => (
+export const Ordu = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 50, left: 355, width: 130, height: 50 }}
     city='ordu'
@@ -499,7 +500,7 @@ export const Ordu = (props) => (
   />
 )
 
-export const Osmaniye = (props) => (
+export const Osmaniye = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 213, left: 330, width: 100, height: 45 }}
     city='osmaniye'
@@ -507,7 +508,7 @@ export const Osmaniye = (props) => (
   />
 )
 
-export const Rize = (props) => (
+export const Rize = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 43, left: 499, width: 100, height: 45 }}
     city='rize'
@@ -515,7 +516,7 @@ export const Rize = (props) => (
   />
 )
 
-export const Sakarya = (props) => (
+export const Sakarya = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 50, left: 120, width: 100, height: 47 }}
     city='sakarya'
@@ -523,7 +524,7 @@ export const Sakarya = (props) => (
   />
 )
 
-export const Samsun = (props) => (
+export const Samsun = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 95, left: -120, width: 800, height: 300 }}
     city='samsun'
@@ -531,7 +532,7 @@ export const Samsun = (props) => (
   />
 )
 
-export const Siirt = (props) => (
+export const Siirt = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 190, left: 545, width: 100, height: 37 }}
     city='siirt'
@@ -539,7 +540,7 @@ export const Siirt = (props) => (
   />
 )
 
-export const Sinop = (props) => (
+export const Sinop = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 6, left: 270, width: 100, height: 47 }}
     city='sinop'
@@ -547,7 +548,7 @@ export const Sinop = (props) => (
   />
 )
 
-export const Sivas = (props) => (
+export const Sivas = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 80, left: 310, width: 210, height: 100 }}
     city='sivas'
@@ -555,7 +556,7 @@ export const Sivas = (props) => (
   />
 )
 
-export const Şanlıurfa = (props) => (
+export const Şanlıurfa = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 30, left: -120, width: 850, height: 400 }}
     city='şanlıurfa'
@@ -563,7 +564,7 @@ export const Şanlıurfa = (props) => (
   />
 )
 
-export const Şırnak = (props) => (
+export const Şırnak = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 210, left: 560, width: 100, height: 40 }}
     city='şırnak'
@@ -571,7 +572,7 @@ export const Şırnak = (props) => (
   />
 )
 
-export const Tekirdağ = (props) => (
+export const Tekirdağ = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 0, left: -110, width: 450, height: 200 }}
     city='tekirdağ'
@@ -579,7 +580,7 @@ export const Tekirdağ = (props) => (
   />
 )
 
-export const Tokat = (props) => (
+export const Tokat = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 66, left: 330, width: 130, height: 70 }}
     city='tokat'
@@ -587,7 +588,7 @@ export const Tokat = (props) => (
   />
 )
 
-export const Trabzon = (props) => (
+export const Trabzon = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 0, left: -50, width: 550, height: 250 }}
     city='trabzon'
@@ -595,7 +596,7 @@ export const Trabzon = (props) => (
   />
 )
 
-export const Tunceli = (props) => (
+export const Tunceli = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 125, left: 445, width: 110, height: 50 }}
     city='tunceli'
@@ -603,7 +604,7 @@ export const Tunceli = (props) => (
   />
 )
 
-export const Uşak = (props) => (
+export const Uşak = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 155, left: 80, width: 100, height: 46 }}
     city='uşak'
@@ -611,7 +612,7 @@ export const Uşak = (props) => (
   />
 )
 
-export const Van = (props) => (
+export const Van = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 0, left: -70, width: 320, height: 250 }}
     city='van'
@@ -619,7 +620,7 @@ export const Van = (props) => (
   />
 )
 
-export const Yalova = (props) => (
+export const Yalova = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 70, left: 100, width: 40, height: 20 }}
     city='yalova'
@@ -627,7 +628,7 @@ export const Yalova = (props) => (
   />
 )
 
-export const Yozgat = (props) => (
+export const Yozgat = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 93, left: 270, width: 140, height: 70 }}
     city='yozgat'
@@ -635,7 +636,7 @@ export const Yozgat = (props) => (
   />
 )
 
-export const Zonguldak = (props) => (
+export const Zonguldak = (props: TurkeyCityMapsProps): React.ReactElement => (
   <TurkeyCityMaps
     viewBox={{ top: 0, left: -70, width: 370, height: 250 }}
     city='zonguldak'
