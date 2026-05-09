@@ -1,6 +1,6 @@
 {
   "name": "@ritzykey/turkey-district-maps",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A SVG district maps of Turkey cities for React JS applications.",
   "author": "Furkan OZBEK <frknozbek54@gmail.com>",
   "license": "MIT",
