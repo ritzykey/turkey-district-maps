@@ -1,10 +1,13 @@
 {
   "name": "@ritzykey/turkey-district-maps",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A SVG district maps of Turkey cities for React JS applications.",
   "author": "Furkan OZBEK <frknozbek54@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/ritzykey/turkey-district-maps.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritzykey/turkey-district-maps.git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },

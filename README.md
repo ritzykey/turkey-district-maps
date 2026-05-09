@@ -2,7 +2,7 @@
 
 > A SVG district maps of Turkey cities for React JS applications.
 
-[![NPM](https://img.shields.io/npm/v/turkey-district-maps-3.svg)](https://www.npmjs.com/package/turkey-district-maps-3) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Made with React](https://img.shields.io/badge/React-17-blue?logo=react&logoColor=white)](https://www.npmjs.com/package/react)
+[![NPM Version](https://img.shields.io/npm/v/turkey-district-maps-3.svg)](https://www.npmjs.com/package/turkey-district-maps-3) [![NPM Downloads](https://img.shields.io/npm/dm/turkey-district-maps-3.svg)](https://www.npmjs.com/package/turkey-district-maps-3) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Made with React](https://img.shields.io/badge/React-18%2F19-blue?logo=react&logoColor=white)](https://react.dev/) [![TypeScript](https://img.shields.io/badge/TypeScript-6.0-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 
 ## 🌏  Open in the Cloud 
 
